@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    tools:ignore="Deprecated">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/playing"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/hiloAdd"
+        android:layout_width="38dp"
+        android:layout_height="32dp"
+        android:layout_x="12dp"
+        android:layout_y="9dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/hilo" />
+
+    <ImageView
+        android:id="@+id/corAdd"
+        android:layout_width="34dp"
+        android:layout_height="31dp"
+        android:layout_x="125dp"
+        android:layout_y="9dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/coroutine" />
+
+    <ImageView
+        android:id="@+id/restartBtn"
+        android:layout_width="36dp"
+        android:layout_height="27dp"
+        android:layout_x="246dp"
+        android:layout_y="11dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/quit" />
+
+    <ImageView
+        android:id="@+id/hiloAdd4"
+        android:layout_width="69dp"
+        android:layout_height="26dp"
+        android:layout_x="297dp"
+        android:layout_y="11dp"
+        android:backgroundTint="@color/transparent"
+        android:scaleType="centerCrop"
+        tools:srcCompat="@drawable/titre" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="57dp"
+        android:layout_height="31dp"
+        android:layout_x="56dp"
+        android:layout_y="11dp"
+        android:fontFamily="sans-serif-black"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="57dp"
+        android:layout_height="31dp"
+        android:layout_x="167dp"
+        android:layout_y="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>
